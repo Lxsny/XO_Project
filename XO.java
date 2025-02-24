@@ -99,7 +99,6 @@ final static String SET_CURSOR_AT_TOP_LEFT = "\033[H";
 	}
 
 	public static boolean isRepititive(int Num, char[] Arr) {
-		// [null, 'X', null, null ,'X', 'O', null, 'X']
 		if (Arr[Num - 1] != 0) {
 			System.out.println("This number has been chosen");
 			return true;
