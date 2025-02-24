@@ -1,5 +1,5 @@
+// This code is for playing XO with another person, RED is X, and BLUE is O.
 import java.util.Scanner;
-import java.util.Arrays;
 
 public class XO {
 static Scanner s = new Scanner(System.in);
@@ -37,8 +37,6 @@ final static String SET_CURSOR_AT_TOP_LEFT = "\033[H";
 			}
 			playersTurn(turn, ArrXO);
 		}
-		// System.out.println(Arrays.toString(ArrXO));
-
 	}
 
 	public static void PrintTheBoard(char[] Arr ) {
@@ -125,7 +123,4 @@ final static String SET_CURSOR_AT_TOP_LEFT = "\033[H";
 		else
 	    return false;
 }
-
-
-
 }
